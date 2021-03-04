@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    color: #545454;
+    align-self: center;
+
+}
+
+
+p{
+    font-size: 1.3125rem;
+    font-weight: 300;
+    line-height: 2;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+}
+
+
+h2{
+    font-family: 'BrandonGrotesque-Light', serif;
+    src: url('fonts/brandon-light/BrandonGrotesque-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-size: 3.8rem;
+    color: #1e836c;
+
+
+}
+
+h3 {
+    font-family: 'BrandonGrotesque-Regular', serif;
+    src: url('fonts/brandon-regular/BrandonGrotesque-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-size: 2rem;
+    color: #45b29a;
+
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.top {
+    background-color: #e0ece8;
+    color: #4bb29a;
+    margin: auto;
+    padding: 150px 0px 100px 0px;
+    font-family: 'BrandonGrotesque-Regular';
+    src: url('fonts/brandon-regular/BrandonGrotesque-Regular.ttf') format('truetype'); 
+    font-size: 2rem;
+}
+.left-image{
+    position: absolute;
+    color: white;
+    left: 65%;
+    top: 25%;
+    width: 150px;
+    transition: all 1s ease-out;
+    z-index: 980;
+}
+.mountains {
+    margin: 0%;
+    position: relative;
+    top: 112.5px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.right-image{
+    position: absolute;
+    color: white;
+    right: 65%;
+    top: 35%;
+    width: 20%;
+    width: 150px;
+    transition: all 1s ease-out;
+    z-index: 980;
+}
+
+.middle-container {
+    background-color: #ffffff;
+    margin: auto;
+
+}
+
+.profile {
+    padding-top: 50px;
+    margin: 0 auto 0 auto;
+    max-width: 30%;
+    text-align: center;
+    line-height: 2;
+}
+
+.skill-row {
+    margin: 50px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.wordpress {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.python {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+hr{
+    margin: 100px auto 100px auto;
+    border: none;
+    border-top: 5px dotted #d0d3d2;
+    width: 70px;
+}
+
+.contact-me {
+    padding-bottom: 100px;
+    margin: 0 auto 0 auto;
+    max-width: 40%;
+    text-align: center;
+    line-height: 2;
+}
+
+a {
+    font-family: 'BrandonGrotesque-Light', serif;
+    src: url(fonts/brandon-light/BrandonGrotesque-Light.ttf) format('truetype');
+    font-size: 1.5rem;
+    color: #45b29a;
+    font-style: normal;
+    text-decoration: none;
+
+}
+a:hover {
+    color: grey;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(69, 178, 154);;
+    padding: 5px 20px 5px 20px;
+    font-size: 1.75rem;
+    border-radius: 5px;
+
+}
+
+.bottom-container {
+    background-color: #e0ebe8;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #45b29a; 
+    
+}
